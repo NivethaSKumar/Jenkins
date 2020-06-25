@@ -1,0 +1,155 @@
+Started by user [8mha:////4HjgCQZc3QBRhnniPnJZcKxLaJvC10jZVawS2gkpe26dAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\FeedbackMgmtSystem
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/NivethaSKumar/ProjectRepo.git
+ > git.exe init C:\Program Files (x86)\Jenkins\workspace\FeedbackMgmtSystem # timeout=10
+Fetching upstream changes from https://github.com/NivethaSKumar/ProjectRepo.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --force --progress -- https://github.com/NivethaSKumar/ProjectRepo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url https://github.com/NivethaSKumar/ProjectRepo.git # timeout=10
+ > git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url https://github.com/NivethaSKumar/ProjectRepo.git # timeout=10
+Fetching upstream changes from https://github.com/NivethaSKumar/ProjectRepo.git
+ > git.exe fetch --tags --force --progress -- https://github.com/NivethaSKumar/ProjectRepo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 54e6986e4088157b78e74825cd83eae30a4db047 (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 54e6986e4088157b78e74825cd83eae30a4db047 # timeout=10
+Commit message: "Add files via upload"
+ > git.exe rev-list --no-walk 8a8bf1e81e3c87716c5376d029eb9a6fbe5b3179 # timeout=10
+[FeedbackMgmtSystem] $ cmd.exe /C "mvn clean install && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building FeedbackSystem 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4Gfw/SoG3aX0cGyJus3Y1NCXbxBFFSa7TkjkJATdmIn7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ FeedbackSystem ---
+[INFO] 
+[8mha:////4Gfw/SoG3aX0cGyJus3Y1NCXbxBFFSa7TkjkJATdmIn7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ FeedbackSystem ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[8mha:////4Gfw/SoG3aX0cGyJus3Y1NCXbxBFFSa7TkjkJATdmIn7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ FeedbackSystem ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 16 source files to C:\Program Files (x86)\Jenkins\workspace\FeedbackMgmtSystem\target\classes
+[INFO] 
+[8mha:////4Gfw/SoG3aX0cGyJus3Y1NCXbxBFFSa7TkjkJATdmIn7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ FeedbackSystem ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Program Files (x86)\Jenkins\workspace\FeedbackMgmtSystem\src\test\resources
+[INFO] 
+[8mha:////4Gfw/SoG3aX0cGyJus3Y1NCXbxBFFSa7TkjkJATdmIn7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ FeedbackSystem ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to C:\Program Files (x86)\Jenkins\workspace\FeedbackMgmtSystem\target\test-classes
+[INFO] 
+[8mha:////4Gfw/SoG3aX0cGyJus3Y1NCXbxBFFSa7TkjkJATdmIn7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ FeedbackSystem ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.example.demo.controller.test.FeedbackMgmtSystemControllerTest
+Data is saved in excel file.
+Data is saved in excel file.
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.042 s - in com.example.demo.controller.test.FeedbackMgmtSystemControllerTest
+[INFO] Running com.example.demo.FeedbackSystemApplicationTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.demo.FeedbackSystemApplicationTest
+[INFO] Running com.example.demo.service.test.FeedbackMgmtSystemServiceTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.example.demo.service.test.FeedbackMgmtSystemServiceTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[8mha:////4Gfw/SoG3aX0cGyJus3Y1NCXbxBFFSa7TkjkJATdmIn7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:3.1.2:jar (default-jar) @ FeedbackSystem ---
+[INFO] Building jar: C:\Program Files (x86)\Jenkins\workspace\FeedbackMgmtSystem\target\FeedbackSystem-0.0.1-SNAPSHOT.jar
+[INFO] 
+[8mha:////4Gfw/SoG3aX0cGyJus3Y1NCXbxBFFSa7TkjkJATdmIn7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- spring-boot-maven-plugin:2.2.4.RELEASE:repackage (repackage) @ FeedbackSystem ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[8mha:////4Gfw/SoG3aX0cGyJus3Y1NCXbxBFFSa7TkjkJATdmIn7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ FeedbackSystem ---
+[INFO] Installing C:\Program Files (x86)\Jenkins\workspace\FeedbackMgmtSystem\target\FeedbackSystem-0.0.1-SNAPSHOT.jar to C:\Windows\system32\config\systemprofile\.m2\repository\com\example\FeedbackSystem\0.0.1-SNAPSHOT\FeedbackSystem-0.0.1-SNAPSHOT.jar
+[INFO] Installing C:\Program Files (x86)\Jenkins\workspace\FeedbackMgmtSystem\pom.xml to C:\Windows\system32\config\systemprofile\.m2\repository\com\example\FeedbackSystem\0.0.1-SNAPSHOT\FeedbackSystem-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 10.380 s
+[INFO] Finished at: 2020-06-23T19:54:01+05:30
+[INFO] Final Memory: 43M/349M
+[INFO] ------------------------------------------------------------------------
+[FeedbackMgmtSystem] $ cmd /c call C:\Windows\TEMP\jenkins514854155093737611.bat
+
+C:\Program Files (x86)\Jenkins\workspace\FeedbackMgmtSystem>docker build -t feedbackmgtsys:latest .  
+Sending build context to Docker daemon  27.53MB
+Step 1/8 : FROM openjdk:8-jdk
+ ---> b190ad78b520
+Step 2/8 : ENV JAVA_HOME              /usr/lib/jvm/java-8-openjdk-amd64
+ ---> Using cache
+ ---> 6dceef895ced
+Step 3/8 : ENV JAVA_OPTS              ""
+ ---> Using cache
+ ---> e3a3753746b9
+Step 4/8 : ENV PATH                   $PATH:$JAVA_HOME/bin
+ ---> Using cache
+ ---> 3659c1f41de4
+Step 5/8 : WORKDIR /app
+ ---> Using cache
+ ---> 4d13670556c9
+Step 6/8 : EXPOSE 8120
+ ---> Using cache
+ ---> 7b888855e59e
+Step 7/8 : ADD target/*.jar /app/FeedbackSystem-0.0.1-SNAPSHOT.jar
+ ---> 28ccc0ef7779
+Step 8/8 : CMD ["/bin/sh", "-c", "java $JAVA_OPTS -Dlog.path=/var/log -jar /app/FeedbackSystem-0.0.1-SNAPSHOT.jar"]
+ ---> Running in e4e938cdb51d
+Removing intermediate container e4e938cdb51d
+ ---> 05f36c538153
+Successfully built 05f36c538153
+Successfully tagged feedbackmgtsys:latest
+SECURITY WARNING: You are building a Docker image from Windows against a non-Windows Docker host. All files and directories added to build context will have '-rwxr-xr-x' permissions. It is recommended to double check and reset permissions for sensitive files and directories.
+
+C:\Program Files (x86)\Jenkins\workspace\FeedbackMgmtSystem>docker tag feedbackmgtsys:latest nivethasiva/feedback-mgmt-sys-repo:0.1 
+
+C:\Program Files (x86)\Jenkins\workspace\FeedbackMgmtSystem>docker login -u "nivethasiva" -p nivethasiva@01 docker.io 
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+Login Succeeded
+
+C:\Program Files (x86)\Jenkins\workspace\FeedbackMgmtSystem>docker push nivethasiva/feedback-mgmt-sys-repo:0.1 
+The push refers to repository [docker.io/nivethasiva/feedback-mgmt-sys-repo]
+2492b587964b: Preparing
+94af417ef106: Preparing
+cb8e2372b23c: Preparing
+68bb2d422178: Preparing
+f5181c7ef902: Preparing
+2e5b4ca91984: Preparing
+527ade4639e0: Preparing
+c2c789d2d3c5: Preparing
+8803ef42039d: Preparing
+2e5b4ca91984: Waiting
+527ade4639e0: Waiting
+c2c789d2d3c5: Waiting
+8803ef42039d: Waiting
+68bb2d422178: Layer already exists
+f5181c7ef902: Layer already exists
+cb8e2372b23c: Layer already exists
+94af417ef106: Layer already exists
+527ade4639e0: Layer already exists
+c2c789d2d3c5: Layer already exists
+2e5b4ca91984: Layer already exists
+8803ef42039d: Layer already exists
+2492b587964b: Pushed
+0.1: digest: sha256:4f59046efc1c5dc71ad58520e24db306b6b37e238ac6612f9dc9f83814627cf4 size: 2213
+
+C:\Program Files (x86)\Jenkins\workspace\FeedbackMgmtSystem>docker-compose up -d 
+build path C:\Program Files (x86)\Jenkins\workspace\FeedbackMgmtSystem\feedback_img either does not exist, is not accessible, or is not a valid URL.
+
+C:\Program Files (x86)\Jenkins\workspace\FeedbackMgmtSystem>exit 1 
+Build step 'Execute Windows batch command' marked build as failure
+Finished: FAILURE
